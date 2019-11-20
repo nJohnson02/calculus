@@ -1,0 +1,1 @@
+win = window.width
