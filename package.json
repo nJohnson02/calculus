@@ -4,11 +4,16 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "watch-sass": "node-sass public/scss/main.scss public/css/main.css --watch",
+    "compile-sass": "node-sass public/scss/main.scss public/css/style.comp.css"
   },
   "author": "Le-SirH",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.0"
   }
 }
