@@ -26,7 +26,9 @@ npm run start
 
 * [Node.js](https://nodejs.org/en/)
 * [jQuery](https://jquery.com/)
+* [Sass](https://sass-lang.com/)
 
 ### Authors
 
 * [Le-SirH](https://github.com/Le-SirH)
+* [Dapp3rDuck](https://github.com/Dapp3rDuck)
