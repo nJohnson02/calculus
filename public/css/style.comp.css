@@ -1,9 +1,26 @@
 html {
   background-color: #ffffff; }
 
+main {
+  margin: 5% 0; }
+
+nav {
+  padding: 0px 5%; }
+
 nav, #nav-link-wrap {
   display: flex;
   flex-direction: row; }
+
+#nav-link-wrap {
+  position: absolute;
+  right: 5%; }
+
+#nav-title, .nav-item {
+  padding: 1em 2em; }
+
+.nav-link {
+  text-decoration: none;
+  color: black; }
 
 .note {
   border-left: 3px solid #ff4343;
@@ -14,4 +31,27 @@ nav, #nav-link-wrap {
 
 @media screen and (max-width: 800px) {
   nav, #nav-link-wrap {
-    flex-direction: column; } }
+    flex-direction: column; }
+  #nav-title {
+    display: block;
+    margin: 0 auto; }
+  #nav-link-wrap {
+    position: relative !important;
+    width: 100%;
+    right: 0px; }
+  .nav-item {
+    display: block;
+    margin: 0 auto; } }
+
+footer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto; }
+
+.foot-link {
+  text-decoration: none;
+  color: black;
+  padding: 1em 2em;
+  display: block;
+  margin: 0 auto;
+  text-align: center; }
