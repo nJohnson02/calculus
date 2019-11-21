@@ -7,6 +7,7 @@ Clone the repository & install required dependencies
 ```
 git clone git@github.com:Le-SirH/calculus.git
 npm install
+npm run compile-sass
 npm run start
 ```
 
