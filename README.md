@@ -1,5 +1,5 @@
 # Calculus
-A Calculus based website for downloading calculus related calculator programs & other miscellanous programs.
+A Calculus based website for downloading calculus related calculator programs & other miscellaneous programs.
 
 ### Getting Started
 
