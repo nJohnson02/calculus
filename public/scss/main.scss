@@ -5,3 +5,24 @@ html {
     background-color: $bg-color;
 }
 
+nav, #nav-link-wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.note {
+    border-left: 3px solid rgb(255, 67, 67);
+    border-radius: 5px;
+    background-color: rgb(230, 230, 230);
+    padding: 0.5em 1em;
+    width: fit-content;
+}
+
+@media screen and (max-width: 800px) {
+
+    nav, #nav-link-wrap {
+        flex-direction: column;   
+    }
+
+}
+
