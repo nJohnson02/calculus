@@ -21,7 +21,7 @@ app.get("/integrals", (req, res) => {
 })
 
 app.get("/programs", (req, res) => {
-    res.sendFile(__dirname + "public/views/programs.html")
+    res.sendFile(__dirname + "/public/views/programs.html")
 })
 
 app.listen(port, () => {
