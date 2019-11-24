@@ -1,11 +1,14 @@
-html {
-  background-color: #ffffff; }
+html, body {
+  background-color: #ffffff;
+  margin: 0px; }
 
 main {
   margin: 5% 0; }
 
 nav {
-  padding: 0px 5%; }
+  padding: 0px 5%;
+  background-color: #212429;
+  box-shadow: 0px 0px 25px black; }
 
 nav, #nav-link-wrap {
   display: flex;
@@ -20,7 +23,7 @@ nav, #nav-link-wrap {
 
 .nav-link {
   text-decoration: none;
-  color: black; }
+  color: white; }
 
 .note {
   border-left: 3px solid #ff4343;
@@ -46,11 +49,12 @@ nav, #nav-link-wrap {
 footer {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto; }
+  grid-template-rows: auto auto auto;
+  background-color: #212429; }
 
 .foot-link {
   text-decoration: none;
-  color: black;
+  color: white;
   padding: 1em 2em;
   display: block;
   margin: 0 auto;
