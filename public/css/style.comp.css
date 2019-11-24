@@ -1,11 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
 html, body {
   background-color: #ffffff;
   margin: 0px; }
 
 main {
-  margin: 5%; }
+  margin: 5% 10%;
+  font-family: 'Rubik', sans-serif; }
 
 nav {
+  font-family: 'Roboto Mono', monospace;
   padding: 0px 5%;
   background-color: #212429;
   box-shadow: 0px 0px 25px black; }
@@ -19,11 +23,14 @@ nav, #nav-link-wrap {
   right: 5%; }
 
 #nav-title, .nav-item {
-  padding: 1em 2em; }
+  padding: 1.25em 2.5em; }
 
 .nav-link {
   text-decoration: none;
   color: white; }
+
+.indent {
+  text-indent: 4em; }
 
 .note {
   border-left: 3px solid #ff4343;
@@ -31,6 +38,13 @@ nav, #nav-link-wrap {
   background-color: #e6e6e6;
   padding: 0.5em 1em;
   width: fit-content; }
+
+.main-link {
+  text-decoration: none;
+  color: #004fe0; }
+
+.main-link:hover {
+  color: #003eb3; }
 
 @media screen and (max-width: 800px) {
   nav, #nav-link-wrap {
@@ -47,6 +61,7 @@ nav, #nav-link-wrap {
     margin: 0 auto; } }
 
 footer {
+  font-family: 'Roboto Mono', monospace;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
@@ -55,7 +70,7 @@ footer {
 .foot-link {
   text-decoration: none;
   color: white;
-  padding: 1em 2em;
+  padding: 1.25em 2.5em;
   display: block;
   margin: 0 auto;
   text-align: center; }
