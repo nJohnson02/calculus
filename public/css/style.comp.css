@@ -30,7 +30,8 @@ nav, #nav-link-wrap {
   color: white; }
 
 .indent {
-  text-indent: 4em; }
+  text-indent: 4em;
+  line-height: 2em; }
 
 .note {
   border-left: 3px solid #ff4343;
