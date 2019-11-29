@@ -1,7 +1,7 @@
 # Calculus
 A Calculus based website for downloading calculus related calculator programs & other miscellaneous programs.
 
-![](home.png)
+![](https://i.imgur.com/GX6qZfa.png)
 
 ### Getting Started
 
