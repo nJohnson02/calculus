@@ -64,11 +64,30 @@ nav, #nav-link-wrap {
     color: rgb(0, 79, 224);
 }
 
+.main-wrap {
+    display: flex;
+    flex-direction: row;
+}
+
 .main-link:hover {
     color: rgb(0, 62, 179);
 }
 
-@media screen and (max-width: 800px) {
+#integration-img {
+    width: 25%;
+}
+
+@media screen and (max-width: 900px) {
+
+    .main-wrap {
+        flex-direction: column;
+    }
+
+    #integration-img {
+        width: 75%;
+        display: block;
+        margin: 0 auto;
+    }
 
     nav, #nav-link-wrap {
         flex-direction: column; 

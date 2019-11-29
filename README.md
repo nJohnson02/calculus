@@ -1,6 +1,8 @@
 # Calculus
 A Calculus based website for downloading calculus related calculator programs & other miscellaneous programs.
 
+![](home.png)
+
 ### Getting Started
 
 Clone the repository & install required dependencies
@@ -32,3 +34,4 @@ npm run start
 
 * [Le-SirH](https://github.com/Le-SirH)
 * [Dapp3rDuck](https://github.com/Dapp3rDuck)
+
