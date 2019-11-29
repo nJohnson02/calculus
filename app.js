@@ -2,6 +2,8 @@ const express = require("express")
 const app = express()
 const port = process.env.PORT || 8080
 
+const views = __dirname + "/public/views/"
+
 app.use(express.static(__dirname + "/public"))
 
 app.get("/", (req, res) => {
@@ -9,19 +11,19 @@ app.get("/", (req, res) => {
 })
 
 app.get("/limits", (req, res) => {
-    res.sendFile(__dirname + "/public/views/limits.html")
+    res.sendFile(views + "limits.html")
 })
 
 app.get("/derivatives", (req, res) => {
-    res.sendFile(__dirname + "/public/views/derivatives.html")
+    res.sendFile(views + "derivatives.html")
 })
 
 app.get("/integrals", (req, res) => {
-    res.sendFile(__dirname + "/public/views/integrals.html")
+    res.sendFile(views + "integrals.html")
 })
 
 app.get("/programs", (req, res) => {
-    res.sendFile(__dirname + "/public/views/programs.html")
+    res.sendFile(views + "programs.html")
 })
 
 app.listen(port, () => {
