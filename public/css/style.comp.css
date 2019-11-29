@@ -52,7 +52,8 @@ nav, #nav-link-wrap {
   color: #003eb3; }
 
 #integration-img {
-  width: 25%; }
+  width: 25%;
+  object-fit: contain; }
 
 @media screen and (max-width: 900px) {
   .main-wrap {
