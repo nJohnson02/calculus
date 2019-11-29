@@ -1,6 +1,18 @@
-const a = 0;
-const b = 1;
-const increment = 3;
-const func = "3x";
+// integration calculator
 
- 
+/*
+
+__input__
+Mode: Antidifferentiation | Area
+
+integrand = ?
+variable of integration = ?
+
+if area is selected: 
+point a: 
+point b: 
+
+__output__
+Area | Antiderivative
+
+*/
