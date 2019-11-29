@@ -13,6 +13,12 @@ npm run compile-sass
 npm run start
 ```
 
+### Development
+```
+npm run compile-sass
+npm run start
+```
+
 ### Features
 
 * Calculator Programs
